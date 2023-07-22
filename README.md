@@ -1,2 +1,2 @@
 # nextjsmarkdownBlog
-Simple markdown vlog in Nextjs 
+Simple markdown blog in Nextjs 
