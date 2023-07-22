@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+ 
+}
+
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+p {
+  margin: 15px 0;
+  line-height: 1.8;
+}
+
+
+a {
+  text-decoration: none;
+
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+
+.container {
+  max-width: 768px;
+  margin: auto;
+  overflow: auto;
+  padding: 0 10px;
+  
+}
+
+.Box {
+  padding: 80px 60px;
+  background: grey;
+  position: absolute;
+  bottom: -50;
+  width: 100%;
+
+}
+.posts {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.card {
+  padding: 15px;
+  border-radius: 2px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  
+}
+
+.card-page {
+  padding: 5px 3px;
+}
+
+.post-title {
+  margin: 10px 0;
+}
+
+.post-date {
+  
+  margin-bottom: 20px;
+  padding: 3px 10px;
+}
+
+.post-body ul,
+ol {
+  font-size: 110%;
+  line-height: 2.3;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.post-body pre {
+  
+  padding: 20px;
+  margin: 215px 0;
+  line-height: 2.3;
+}
+
+@media (max-width: 800px) {
+  .posts {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .navbar-brand
+{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    margin: auto;
+}
+
+}
